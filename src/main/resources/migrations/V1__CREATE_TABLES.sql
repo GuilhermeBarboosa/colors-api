@@ -67,7 +67,7 @@ ALTER SEQUENCE public.id_cores_seq OWNED BY public.cores.id;
 --
 
 COPY public.cores (id, tipo, cor) FROM stdin;
-1	bg_primary_color	#191970
+1	bg_primary_color	#002069
 2	bg_secundary_color	#DC143C
 3	font_color	#4B0082
 \.

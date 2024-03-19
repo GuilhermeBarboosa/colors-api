@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>br.com.codiub</groupId>
-    <artifactId>colors-api</artifactId>
+    <artifactId>mew-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>colors-api</name>
-    <description>COLORS API</description>
+    <name>mew-api</name>
+    <description>MEW API</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -36,10 +36,10 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
-        <!--		<dependency>-->
-        <!--			<groupId>org.flywaydb</groupId>-->
-        <!--			<artifactId>flyway-mysql</artifactId>-->
-        <!--		</dependency>-->
+        		<dependency>
+        			<groupId>org.flywaydb</groupId>
+        			<artifactId>flyway-mysql</artifactId>
+        		</dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
